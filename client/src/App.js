@@ -22,6 +22,7 @@ function App() {
               <Route path="/" element={<Navigate to="/Dashboard" replace/>}/>
               <Route path ="/dashboard" element={<dashboard/>}/>
 
+
             </Route>
           </Routes>
         </ThemeProvider>
