@@ -18,6 +18,7 @@ import {
   Toolbar,
   useTheme,
 } from "@mui/material";
+import InputBase from "@mui/material";
 const Navbar = () => {
   const dispatch = useDispatch();
   const theme = useTheme();
@@ -39,7 +40,7 @@ const Navbar = () => {
             backgroundColor={theme.palette.background.alt}
             borderRadius="9px"
             gap="3rem"
-            p="0.1 rem 1.5rem"
+            p="0.1rem 1.5rem"
           >
             <InputBase placeholder="search..." />
             <IconButton>
